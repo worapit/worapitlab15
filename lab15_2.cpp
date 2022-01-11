@@ -19,3 +19,17 @@ int main(){
 	showMatrix(B);
 	return 0;
 }
+
+void inputMatrix(double s[][N]){
+	double n;
+	for(int i = 1;i < N ;i++){
+	cout << "ROW" << i <<": ";
+	    for(int j = 0;j < N;j++){
+			cin >> n;
+			s[i][j] = n;
+	     	cout << s[i][j] << " ";
+		}
+		cout << "\n";
+	}
+
+}
